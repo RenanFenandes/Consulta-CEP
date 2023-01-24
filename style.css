@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: consolas;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    background: #5c6fff;
+    font: size 1rem;
+    
+}
+.container{
+    margin: auto;
+    background-color: white;
+    width: 500px;
+    height: 400px;
+    border-radius: 10px;
+    padding: 20px;
+    border: solid black 1px;
+}
+.frm-row{
+    margin-bottom: 10px;
+}
+.frm-row label{
+    display: block;
+    margin-bottom: 3px;
+}
+.frm-row input{
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: solid 1px #ccc;
+    height: 25px;
+    font-size: 1.2rem;
+}
